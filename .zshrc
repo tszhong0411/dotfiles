@@ -30,9 +30,6 @@ export PATH="$PATH:$(brew --prefix llvm)/bin"
 export LDFLAGS="$LDFLAGS -L$(brew --prefix llvm)/lib"
 export CPPFLAGS="$CPPFLAGS -I$(brew --prefix llvm)/include"
 
-# GPG
-export GPG_TTY=$(tty)
-
 # Alias
 alias python=python3
 alias pip=pip3

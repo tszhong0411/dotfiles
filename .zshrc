@@ -33,6 +33,7 @@ export CPPFLAGS="$CPPFLAGS -I$(brew --prefix llvm)/include"
 # Alias
 alias python=python3
 alias pip=pip3
+alias pn=pnpm
 
 # NVM
 export NVM_DIR="$HOME/.nvm"

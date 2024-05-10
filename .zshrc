@@ -6,6 +6,9 @@ zstyle ':omz:update' frequency 3
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
+# Brew
+export PATH="$PATH:/opt/homebrew/bin"
+
 # VSCode
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
@@ -25,6 +28,8 @@ export PATH="$PATH:$HOME/.spicetify"
 alias python=python3
 alias pip=pip3
 alias pn=pnpm
+alias cd=z
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
@@ -37,3 +42,6 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
+
+# Zoxide
+eval "$(zoxide init zsh)"

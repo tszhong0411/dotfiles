@@ -9,9 +9,6 @@ source $ZSH/oh-my-zsh.sh
 # Brew
 export PATH="$PATH:/opt/homebrew/bin"
 
-# VSCode
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
 # Bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$PATH:$BUN_INSTALL/bin"

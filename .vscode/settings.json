@@ -299,5 +299,10 @@
    * LLDB settings
    */
   "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
-  "lldb.launch.expressions": "native"
+  "lldb.launch.expressions": "native",
+
+  /*
+   * CSpell (if needed, enable it per repository)
+   */
+  "cSpell.enabled": false
 }

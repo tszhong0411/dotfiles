@@ -42,3 +42,6 @@ esac
 
 # Zoxide
 eval "$(zoxide init zsh)"
+
+# Corepack
+export COREPACK_ENABLE_AUTO_PIN=0

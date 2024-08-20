@@ -45,3 +45,6 @@ eval "$(zoxide init zsh)"
 
 # Corepack
 export COREPACK_ENABLE_AUTO_PIN=0
+
+# bun completions
+[ -s "/Users/hong/.bun/_bun" ] && source "/Users/hong/.bun/_bun"

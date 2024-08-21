@@ -10,6 +10,7 @@
    */
   "settingsSync.keybindingsPerPlatform": false,
   "search.followSymlinks": false,
+  "editor.codeLens": false,
 
   /*
    * Theme
@@ -299,7 +300,6 @@
    */
   "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
   "lldb.launch.expressions": "native",
-  "cSpell.enabled": false,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   }

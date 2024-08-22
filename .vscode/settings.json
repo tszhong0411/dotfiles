@@ -10,24 +10,20 @@
    */
   "settingsSync.keybindingsPerPlatform": false,
   "search.followSymlinks": false,
-  "editor.codeLens": false,
 
   /*
    * Theme
    */
   "workbench.colorTheme": "Hong",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "editor.semanticHighlighting.enabled": "configuredByTheme",
 
   /*
    * Window
    */
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
   "window.restoreWindows": "all",
-
-  /*
-   * Update
-   */
-  "editor.semanticHighlighting.enabled": "configuredByTheme",
-  "workbench.iconTheme": "material-icon-theme",
 
   /*
    * Startup View
@@ -264,11 +260,6 @@
   },
 
   /*
-   * Svelte settings
-   */
-  "svelte.enable-ts-plugin": true,
-
-  /*
    * Git and GitHub settings
    */
   "git.autofetch": true,
@@ -293,14 +284,5 @@
    */
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "typescript.locale": "en",
-
-  /*
-   * LLDB settings
-   */
-  "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
-  "lldb.launch.expressions": "native",
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  }
+  "typescript.locale": "en"
 }

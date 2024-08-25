@@ -6,6 +6,11 @@
    */
 
   /*
+   * Code Spell Checker
+   */
+  "cSpell.enabled": false,
+
+  /*
    * Disable to fix performance issues
    */
   "settingsSync.keybindingsPerPlatform": false,
@@ -208,6 +213,19 @@
     },
     "#workbench\\.parts\\.panel .global-actions": {
       "height": "35px !important"
+    },
+
+    // Quick input widget
+    ".quick-input-widget": {
+      "top": "50% !important",
+      "left": "50% !important",
+      "margin-left": "0 !important",
+      "transform": "translate(-50%, -50%) !important",
+      "min-height": "500px"
+    },
+    ".monaco-action-bar.quick-input-list-entry-action-bar": {
+      "height": "30px !important",
+      "margin-top": "0 !important"
     }
   },
 

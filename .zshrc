@@ -22,8 +22,6 @@ export PATH="$PATH:$DENO_INSTALL/bin"
 export PATH="$PATH:$HOME/.spicetify"
 
 # Alias
-alias python=python3
-alias pip=pip3
 alias pn=pnpm
 alias cd=z
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
@@ -48,3 +46,9 @@ export COREPACK_ENABLE_AUTO_PIN=0
 
 # bun completions
 [ -s "/Users/hong/.bun/_bun" ] && source "/Users/hong/.bun/_bun"
+
+# Python
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PATH:$PYENV_ROOT/bin"
+eval "$(pyenv init -)"

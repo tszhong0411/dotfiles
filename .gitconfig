@@ -1,0 +1,16 @@
+[user]
+	name = tszhong0411
+	email = me@honghong.me
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIrrjJl0Hovp5M5umHYpY8rr/4ADj93QM51fFMZ2KJHu
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+[commit]
+	gpgsign = true
+
+[core]
+	pager = delta

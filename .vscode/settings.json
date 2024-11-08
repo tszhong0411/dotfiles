@@ -130,7 +130,6 @@
   /*
    * Title bar
    */
-  "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "window.titleBarStyle": "custom",
 

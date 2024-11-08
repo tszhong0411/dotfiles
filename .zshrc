@@ -25,6 +25,7 @@ export PATH="$PATH:$HOME/.spicetify"
 alias pn=pnpm
 alias cd=z
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias git='/opt/homebrew/bin/git'
 
 # NVM
 export NVM_DIR="$HOME/.nvm"

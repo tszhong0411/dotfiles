@@ -302,9 +302,16 @@
   "cmake.options.statusBarVisibility": "visible",
 
   /*
+   * Code Runner
+   */
+  "code-runner.runInTerminal": true,
+
+  /*
    * Languages settings
    */
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "typescript.locale": "en"
+  "typescript.locale": "en",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 0 }",
+  "C_Cpp.autoAddFileAssociations": false
 }

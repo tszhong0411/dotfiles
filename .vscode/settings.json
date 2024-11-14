@@ -68,6 +68,7 @@
    */
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
 
   /*
    * Bracket pair
@@ -281,7 +282,6 @@
    */
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "never",
-  "github.copilot.chat.welcomeMessage": "never",
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -295,6 +295,11 @@
   "github.copilot.editor.enableAutoCompletions": true,
   "githubPullRequests.fileListLayout": "flat",
   "githubPullRequests.pullBranch": "never",
+
+  /*
+   * Cmake
+   */
+  "cmake.options.statusBarVisibility": "visible",
 
   /*
    * Languages settings

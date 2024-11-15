@@ -307,11 +307,21 @@
   "code-runner.runInTerminal": true,
 
   /*
+   * Black formatter
+   */
+  "black-formatter.args": ["-S"],
+
+  /*
    * Languages settings
    */
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "typescript.locale": "en",
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 0 }",
-  "C_Cpp.autoAddFileAssociations": false
+  "C_Cpp.autoAddFileAssociations": false,
+  "cmake.showOptionsMovedNotification": false,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ]
 }

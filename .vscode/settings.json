@@ -309,7 +309,7 @@
   /*
    * Black formatter
    */
-  "black-formatter.args": ["-S"],
+  "black-formatter.args": ["-S", "--line-length", "120"],
 
   /*
    * Languages settings

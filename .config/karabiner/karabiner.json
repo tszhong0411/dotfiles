@@ -1,0 +1,84 @@
+{
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "input_sources": [{ "language": "yue-Hant" }],
+                                        "type": "input_source_if"
+                                    }
+                                ],
+                                "description": "Change Chinese Input",
+                                "from": { "key_code": "j" },
+                                "to": { "key_code": "u" },
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "input_sources": [{ "language": "yue-Hant" }],
+                                        "type": "input_source_if"
+                                    }
+                                ],
+                                "from": { "key_code": "k" },
+                                "to": { "key_code": "i" },
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "input_sources": [{ "language": "yue-Hant" }],
+                                        "type": "input_source_if"
+                                    }
+                                ],
+                                "from": { "key_code": "l" },
+                                "to": { "key_code": "o" },
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "input_sources": [{ "language": "yue-Hant" }],
+                                        "type": "input_source_if"
+                                    }
+                                ],
+                                "from": { "key_code": "u" },
+                                "to": { "key_code": "j" },
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "input_sources": [{ "language": "yue-Hant" }],
+                                        "type": "input_source_if"
+                                    }
+                                ],
+                                "from": { "key_code": "i" },
+                                "to": { "key_code": "k" },
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "input_sources": [{ "language": "yue-Hant" }],
+                                        "type": "input_source_if"
+                                    }
+                                ],
+                                "from": { "key_code": "o" },
+                                "to": { "key_code": "l" },
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}

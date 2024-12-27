@@ -18,9 +18,6 @@ export PATH="$PATH:$BUN_INSTALL/bin"
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$PATH:$DENO_INSTALL/bin"
 
-# Spicetify
-export PATH="$PATH:$HOME/.spicetify"
-
 # Alias
 alias pn=pnpm
 alias cd=z
@@ -45,8 +42,8 @@ eval "$(zoxide init zsh)"
 # Corepack
 export COREPACK_ENABLE_AUTO_PIN=0
 
-# bun completions
-[ -s "/Users/hong/.bun/_bun" ] && source "/Users/hong/.bun/_bun"
+# Bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # Python
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'

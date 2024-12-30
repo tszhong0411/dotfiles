@@ -15,7 +15,6 @@ Personal configuration files for my development environment. The configurations 
 - `.zshrc` - Shell configuration with oh-my-zsh
 - `.gitconfig` - Git configuration with GPG signing
 - `.config/`
-  - `ghostty/` - Terminal emulator settings
   - `karabiner/` - Keyboard customization (macOS)
 - `.ssh/` - SSH configuration
 

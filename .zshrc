@@ -46,9 +46,9 @@ export COREPACK_ENABLE_AUTO_PIN=0
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # Python
-alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PATH:$PYENV_ROOT/bin"
+export PATH="$PATH:$PYENV_ROOT/bin"
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 
 # Java

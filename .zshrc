@@ -47,3 +47,6 @@ export COREPACK_ENABLE_AUTO_PIN=0
 
 # Java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"
+
+# Python
+export PATH="$PATH:$(brew --prefix python)/libexec/bin"

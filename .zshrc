@@ -45,17 +45,5 @@ export COREPACK_ENABLE_AUTO_PIN=0
 # Bun completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
-# Python
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PATH:$PYENV_ROOT/bin"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
-# Tcl-Tk
-export LDFLAGS="-L$(brew --prefix tcl-tk)/lib"
-export CPPFLAGS="-I$(brew --prefix tcl-tk)/include"
-export PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig"
-
 # Java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"

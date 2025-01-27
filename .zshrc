@@ -50,3 +50,8 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"
 
 # Python
 export PATH="$PATH:$(brew --prefix python@3.12)/libexec/bin"
+
+# Tcl-Tk
+export LDFLAGS="-L$(brew --prefix tcl-tk)/lib"
+export CPPFLAGS="-I$(brew --prefix tcl-tk)/include"
+export PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig"

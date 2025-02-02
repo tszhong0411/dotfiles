@@ -80,3 +80,6 @@ export PATH="$PATH:$(brew --prefix python@3.12)/libexec/bin"
 export LDFLAGS="-L$(brew --prefix tcl-tk)/lib"
 export CPPFLAGS="-I$(brew --prefix tcl-tk)/include"
 export PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig"
+
+# CZ
+alias cz='NODE_OPTIONS=--experimental-transform-types cz'

@@ -19,5 +19,18 @@
     "mode": "system",
     "light": "One Light",
     "dark": "Atelier Cave Dark"
+  },
+  "languages": {
+    "JavaScript": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      },
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
   }
 }

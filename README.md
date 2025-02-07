@@ -5,7 +5,7 @@
 
 Personal configuration files for my development environment. The configurations are managed using GNU Stow for easy symlinking and organization.
 
-> [!WARNING]  
+> [!WARNING]
 > The configuration is for my personal use and may not work for you. Please review the files before applying them to your system.
 
 ![Header](images/header.png)
@@ -17,6 +17,7 @@ Personal configuration files for my development environment. The configurations 
 - `.config/`
   - `ghossty/` - Terminal emulator settings
   - `karabiner/` - Keyboard customization (macOS)
+  - `zed/settings.json` - Zed editor settings
 - `.ssh/` - SSH configuration
 
 ## Installation

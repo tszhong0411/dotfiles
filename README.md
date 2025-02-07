@@ -17,7 +17,6 @@ Personal configuration files for my development environment. The configurations 
 - `.config/`
   - `ghossty/` - Terminal emulator settings
   - `karabiner/` - Keyboard customization (macOS)
-  - `zed/settings.json` - Zed editor settings
 - `.ssh/` - SSH configuration
 
 ## Installation

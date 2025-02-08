@@ -83,3 +83,6 @@ export PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig"
 
 # CZ
 alias cz='NODE_OPTIONS=--experimental-transform-types cz'
+
+# PostgreSQL
+export PATH="$PATH:/opt/homebrew/opt/postgresql@16/bin"

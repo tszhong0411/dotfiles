@@ -86,3 +86,9 @@ alias cz='NODE_OPTIONS=--experimental-transform-types cz'
 
 # PostgreSQL
 export PATH="$PATH:/opt/homebrew/opt/postgresql@16/bin"
+
+# bun completions
+[ -s "/Users/hong/.bun/_bun" ] && source "/Users/hong/.bun/_bun"
+
+# PIPX
+export PATH="$PATH:/Users/hong/.local/bin"

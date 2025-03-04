@@ -29,7 +29,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-# place this after nvm initialization!
 autoload -U add-zsh-hook
 
 load-nvmrc() {
@@ -67,9 +66,6 @@ eval "$(zoxide init zsh)"
 # Corepack
 export COREPACK_ENABLE_AUTO_PIN=0
 
-# Bun completions
-[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
-
 # Java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"
 
@@ -87,8 +83,5 @@ alias cz='NODE_OPTIONS=--experimental-transform-types cz'
 # PostgreSQL
 export PATH="$PATH:/opt/homebrew/opt/postgresql@16/bin"
 
-# bun completions
-[ -s "/Users/hong/.bun/_bun" ] && source "/Users/hong/.bun/_bun"
-
 # PIPX
-export PATH="$PATH:/Users/hong/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"

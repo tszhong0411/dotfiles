@@ -9,7 +9,6 @@ source $ZSH/oh-my-zsh.sh
 # Brew
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
-export PATH="$(brew --prefix python@3.12)/libexec/bin:$PATH"
 
 # Bun
 export BUN_INSTALL="$HOME/.bun"

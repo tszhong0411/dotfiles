@@ -7,16 +7,17 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Brew
-export PATH="$PATH:/opt/homebrew/bin"
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
 
 # Bun
 export BUN_INSTALL="$HOME/.bun"
-export PATH="$PATH:$BUN_INSTALL/bin"
+export PATH="$BUN_INSTALL/bin:$PATH"
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # Deno
 export DENO_INSTALL="$HOME/.deno"
-export PATH="$PATH:$DENO_INSTALL/bin"
+export PATH="$DENO_INSTALL/bin:$PATH"
 
 # Alias
 alias pn=pnpm
@@ -70,7 +71,7 @@ export COREPACK_ENABLE_AUTO_PIN=0
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"
 
 # Python
-export PATH="$PATH:$(brew --prefix python@3.12)/libexec/bin"
+export PATH="$(brew --prefix python@3.12)/libexec/bin:$PATH"
 
 # Tcl-Tk
 export LDFLAGS="-L$(brew --prefix tcl-tk)/lib"
@@ -81,10 +82,10 @@ export PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig"
 alias cz='NODE_OPTIONS=--experimental-transform-types cz'
 
 # PostgreSQL
-export PATH="$PATH:/opt/homebrew/opt/postgresql@16/bin"
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 
 # PIPX
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$HOME/.local/bin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

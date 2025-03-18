@@ -71,3 +71,6 @@ export PATH="$(brew --prefix python@3.12)/libexec/bin:$PATH"
 
 # CZ
 alias cz='NODE_OPTIONS=--experimental-transform-types cz'
+
+# UV
+eval "$(uv generate-shell-completion zsh)"

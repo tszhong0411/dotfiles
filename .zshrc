@@ -69,8 +69,5 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"
 # Python
 export PATH="$(brew --prefix python@3.12)/libexec/bin:$PATH"
 
-# CZ
-alias cz='NODE_OPTIONS=--experimental-transform-types cz'
-
 # UV
 eval "$(uv generate-shell-completion zsh)"

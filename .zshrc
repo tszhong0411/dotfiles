@@ -71,3 +71,6 @@ export PATH="$(brew --prefix python@3.12)/libexec/bin:$PATH"
 
 # UV
 eval "$(uv generate-shell-completion zsh)"
+
+# CZ
+alias cz="czg"

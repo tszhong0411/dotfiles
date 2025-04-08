@@ -74,3 +74,6 @@ eval "$(uv generate-shell-completion zsh)"
 
 # CZ
 alias cz="czg"
+
+# Cursor
+alias c="cursor"

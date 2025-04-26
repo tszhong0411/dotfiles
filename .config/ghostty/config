@@ -20,3 +20,5 @@ selection-background = 3c1d1d
 selection-foreground = eeeeee
 
 macos-titlebar-style = transparent
+
+shell-integration-features = sudo

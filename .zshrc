@@ -77,3 +77,8 @@ alias cz="czg"
 
 # Cursor
 alias c="cursor"
+
+. "$HOME/.posthog/env"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/nelson/.lmstudio/bin"

@@ -7,8 +7,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Brew
-export PATH="/opt/homebrew/bin:$PATH"
-export PATH="/opt/homebrew/sbin:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
 # Bun
 export BUN_INSTALL="$HOME/.bun"
@@ -19,7 +18,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias pn=pnpm
 alias cd=z
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
-alias git='/opt/homebrew/bin/git'
+alias cz="czg"
+alias c="cursor"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
@@ -50,32 +50,8 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-# PNPM
-export PNPM_HOME="$HOME/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-
 # Zoxide
 eval "$(zoxide init zsh)"
 
 # Corepack
 export COREPACK_ENABLE_AUTO_PIN=0
-
-# Java
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"
-
-# Python
-export PATH="$(brew --prefix python@3.12)/libexec/bin:$PATH"
-
-# UV
-eval "$(uv generate-shell-completion zsh)"
-
-# CZ
-alias cz="czg"
-
-# Cursor
-alias c="cursor"
-
-. "$HOME/.posthog/env"

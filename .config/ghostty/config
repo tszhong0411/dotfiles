@@ -22,3 +22,4 @@ selection-foreground = eeeeee
 macos-titlebar-style = transparent
 
 shell-integration-features = sudo
+keybind = shift+enter=text:\n

@@ -7,19 +7,18 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Brew
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Bun
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # Alias
 alias pn=pnpm
 alias cd=z
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 alias cz="czg"
-alias c="cursor"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"

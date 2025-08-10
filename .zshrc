@@ -54,3 +54,13 @@ eval "$(zoxide init zsh)"
 
 # Corepack
 export COREPACK_ENABLE_AUTO_PIN=0
+
+# UV
+. "$HOME/.local/bin/env"
+
+# PNPM
+export PNPM_HOME="$HOME/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac

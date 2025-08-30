@@ -18,7 +18,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias pn=pnpm
 alias cd=z
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
-alias cz="czg"
+alias cz="NODE_OPTIONS=--experimental-transform-types czg"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
